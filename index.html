@@ -1,23 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
+<html lang="es">
+
+<head>
+    <!-- CODIFICACION CORRECTA DE CARACTERES -->
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/jpg" href="image/html.jpg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto con HTML5</title>
+
+    <style>
+        article {
+            border-bottom: 1px solid green;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Empezamos Proyecto HTML5</h1>
+
+        <nav>
+            <!--menu-->
+            <!-- lista desordenada -->
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="dieta.html">Dieta</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+
+            </ul>
+
+
+        </nav>
+
+    </header>
+
     <main>
-      <h1>Home page</h1>
+        <h2>Articulos</h2>
+        <section id="articulos">
+            <article>
+                <h3>Titulo del Articulo</h3>
+                <time datatime="2023-02-02">2 de Febrero</time>
+                <br />
+                <img src="image/html.jpg" width="120" alt="imagen del articulo" />
+                <p>
+                    <!-- b, strong para negrita, el i, em para cursiva -->
+                    <b>Descripcion</b> <i>de</i> este <strong>articulo</strong> de la <em>Web</em> ...
+                </p>
+            </article>
+            <article>
+                <h3>Titulo del Articulo</h3>
+                <time datatime="2023-02-02">2 de Febrero</time>
+                <br />
+                <img src="image/html.jpg" width="120" alt="imagen del articulo" />
+                <p>Descripcion de este articulo de la Web</p>
+            </article>
+            <article>
+                <h3>Titulo del Articulo</h3>
+                <time datatime="2023-02-02">2 de Febrero</time>
+                <br />
+                <img src="image/html.jpg" width="120" alt="imagen del articulo" />
+                <p>Descripcion de este articulo de la Web</p>
+            </article>
+
+        </section>
     </main>
-  </body>
+
+    <footer>
+        Proyecto de HTML5 con ejercicios de Erika Gonsalez &copy; 2023
+    </footer>
+
+</body>
+
 </html>

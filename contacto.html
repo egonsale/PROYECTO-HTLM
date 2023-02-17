@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- CODIFICACION CORRECTA DE CARACTERES -->
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/jpg" href="image/html.jpg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto con HTML5</title>
+
+    <style>
+        article {
+            border-bottom: 1px solid green;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Empezamos Proyecto HTML5</h1>
+
+        <nav>
+            <!--menu-->
+            <!-- lista desordenada -->
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="dieta.html">Dieta</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="dieta">
+            <h2>Contacto</h2>
+
+            <form>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" />
+                </div>
+                <div>
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" id="apellidos" />
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" />
+                </div>
+                <div>
+                    <label for="edad">Edad</label>
+                    <input type="number" id="edad" />
+                </div>
+                <div>
+                    <label for="genero">Genero</label>
+                    <select id="genero">
+                        <option value="hombre">Hombre</option>
+                        <option value="mujer">Mujer</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="motivo">Motivo</label>
+                    <textarea id="motivo"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar" />
+
+            </form>
+
+        </section>
+
+        <hr />
+    </main>
+
+    <footer>
+        Proyecto de HTML5 con ejercicios de Erika Gonsalez &copy; 2023 - <a href="#top">Ir Arriba</a>
+    </footer>
